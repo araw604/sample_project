@@ -1,0 +1,424 @@
+@import '_bootstrap.scss';
+@import '_vars.scss';
+
+
+$font-stack: "Work Sans";
+/////////
+
+/////////
+
+h1{
+	font-family: $font-stack;
+	font-size: 50px;
+}
+.main-container{
+  
+  min-height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  background: #00b5ec;
+  position: relative;
+}
+.iamyowrapper{
+	height: 100vh;
+}
+
+//making a circle around the downwards arrow
+.circle-class{
+	height: 50px;
+	width: 50px;
+	margin: 170px auto 0 auto;
+	background-color: #fff200;
+	border-radius: 50%;
+	position: relative;
+}
+
+//flexing and styling the genie container
+
+.genie-square{
+	display: flex;
+	padding-bottom: 20px;
+}
+.child2 img{
+	height: 215px;
+	
+}
+
+.child1 h2, .child1 h5{
+	color: #85144b;
+}
+.child1 p{
+	color: green;
+	font-size: 16px;
+}
+.child1 p:last-child{
+	margin-top: 20%;
+	color: black;
+	transition: background 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    font-size: 20px;
+}
+.child1 p:last-child:hover{
+	color: #e7e73e;
+	background-color:#FFB6C1;
+  	color:white;
+  	
+}
+
+//styling yellow website of the day
+.yellow-square, .white-square{
+	padding-top: 15px;
+	opacity: 1;
+   transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .55s ease-in-out;
+}
+//end
+
+// opacity transition for yellow and white square
+
+.yellow-square:hover, .white-square:hover{
+
+	opacity:.6;
+
+}
+//styling 2k box
+.dark-blue, .dehner{
+	text-align: center;
+	padding-top: 15px;
+	opacity: .6;
+	 transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .55s ease-in-out;
+}
+
+.dark-blue:hover, .dehner:hover{
+	opacity: 1;
+}
+//end of 2k box
+//start of office box
+.house-img{
+	background: white !important;
+}
+.house-img img{
+	height:100%;
+	width: 100%;
+}
+
+//end 
+
+//styling pink square
+.pink-square{
+
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+	transition: all 1s;
+	overflow: hidden;
+}
+//pink box animation
+.pink-square:hover{
+	 transform: rotate(360deg);
+}
+.pink-square p{
+	margin: 15px 0 0 0;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.pink-square h3{
+	font-size: 14px;
+	opacity: .8;
+	font-weight: normal;
+}
+//end
+//twitter square 
+.twitter-square{
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+	font-size: 16px;
+	transition: all 1s;
+}
+.twitter-square:hover{
+	 transform: scale(.8);
+}
+.twitter-square p{
+	margin-top: 50px;
+}
+//end
+
+//flexing the rio graphic box
+.big-blue-square{
+	display: flex;
+	background-color: #2468b1;
+	justify-content: space-between;
+    padding-right: 0px;
+    color: papayawhip;
+    padding-left: 30px;
+
+}
+.child2 p:last-child{
+	margin-top: 20%;
+	color: papayawhip;
+	transition: background 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    font-size: 20px;
+}
+.child2 p:last-child:hover{
+	color: black;
+	background-color:yellow;
+
+}
+//facebook square
+.facebook-square{
+	text-align: center;
+	padding-top: 15px;
+	color: white;
+	font-size: 16px;
+	transition: all 1s;
+}
+
+.facebook-square:hover{
+	 transform: rotate(-360deg);
+}
+.facebook-square p{
+	margin: 15px 0 0 0;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.facebook-square h3{
+	font-size: 14px;
+	opacity: .8;
+	font-weight: normal;
+}
+//application square styling
+.application-square{
+	background: white !important;
+}
+.application-square img{
+	//height: 100%;
+	width: 100%;
+}
+//weird square
+.weird-square{
+	background-color: white !important;
+}
+//light-blue-square
+.light-blue-square{
+	background: black !important;
+	text-align: center;
+}
+.light-blue-square img{
+	height: 100%;
+	width: 100%;
+}
+//flexing red rio graphic
+.orange-square{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 0px;
+    color: papayawhip;
+}
+.child3 {
+	padding-left: 15px;
+}
+
+.child3 p:last-child{
+	margin-top: 20%;
+	color: papayawhip;
+	transition: background 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+    font-size: 20px;
+}
+.child3 p:last-child:hover{
+	color: white;
+	background-color:#324F17;
+
+}
+
+//explosive square
+.explosion-square, .explosion-square img{
+	transition: border-radius 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: border-radius;
+
+}
+.explosion-square img{
+	width: 100%;
+	height: 100%;
+}
+
+.explosion-square{
+	background-color: black !important;
+}
+
+.explosion-square:hover, .explosion-square img:hover{
+	border-radius: 50%;
+}
+
+//gif square
+
+.gif-square img{
+	transition: all 1s;
+	transition-timing-function: ease-in-out;
+}
+
+.gif-square img:hover{
+	 transform: translateX(30px);
+}
+//y rectangle transformation
+#plus-hover{
+	text-decoration: none;
+}
+.yellow-rectangle{
+background-color: #fff200;
+  height: 224px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.black-circle{
+  height:50px;
+  width:50px;
+  border-radius:50%;
+  border:2px solid black;
+  color: black;
+  text-align:center;
+  font-size:30px;
+  transition: background 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: background;
+}
+.space-between{
+  margin-left:20px;
+  color: black;
+}
+.abcd{
+  background:black;
+  color:#fff200;
+}
+
+
+// setting up the square height for the blocks
+
+.child1, .child2, .yellow-square, .white-square, .dark-blue, .pink-square, .twitter-square, .facebook-square, .light-blue-square, .weird-square, .orange-square, .explosion-square, .gif-square, .yellow-rectangle{
+	//width:286px;
+	height:223px;
+	
+}
+.yellow-square, .white-square, .light-blue-square{
+	height: 243px;
+}
+.genie-square{
+	background-color: white;
+}
+.yellow-square{
+	background-color: #fee434;
+}
+.white-square{
+	background-color: #f0f1f1;
+}
+
+.dark-blue{
+	background-color: #40b4e5;
+}
+.pink-square{
+	background-color: #ea4c89;
+}
+
+.twitter-square{
+	background-color: #55acee;
+}
+
+.facebook-square{
+	background-color: #3b5998;
+}
+.light-blue-square{
+	background-color: #52c3e3;
+}
+.orange-square{
+	background-color: #f4371b;
+}
+.explosion-square{
+	background-color: #d4eeff;
+}
+.gif-square{
+	background-color: #8f9dee;
+}
+.yellow-rectangle{
+	background-color: #fff200;
+}
+
+//// the two squares of envelop
+.white-square img{
+	
+}
+.weird-square img{
+	width: 100%;
+}
+//////Top social media icons
+.tps .fa{
+	color: white;
+}
+
+.tps img{
+	margin-left: 20px;
+}
+
+.tps{
+	margin: 20px 0 0 0;
+}
+
+.col-md-offset-6 i{
+	padding-right: 10px;
+}
+// top heading color
+.top-heading{
+	margin: 70px 0 0 20px;
+	
+}
+.top-heading h1{
+	color: wheat;
+	line-height: 1.4;
+	font-size: 60px;
+}
+
+.top-heading h2{
+	color: #b1edff;
+	font-weight: lighter;
+}
+.top-heading strong{
+	color: white;
+}
+.top-heading strong:hover{
+	color: black;
+}
+.arrow-down{
+	padding-bottom: 20px;
+}
+//about us and contact us container
+.bottom-area-container{
+	font-family: $font-stack;
+	font-size: 22px;
+}
+
+.bottom-area-container h3{
+	font-size: 35px;
+}
+.bottom-area-container i{
+	font-size: 36px;
+}
+.social-media-bottom{
+	margin-top: 150px;
+}
