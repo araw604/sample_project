@@ -6085,7 +6085,7 @@ h1 {
   padding-top: 15px;
   color: white;
   transition: all 1s;
-  overflow: hidden; }
+  height: 243px !important; }
 
 .pink-square:hover {
   transform: rotate(360deg); }
@@ -6105,7 +6105,8 @@ h1 {
   padding-top: 15px;
   color: white;
   font-size: 16px;
-  transition: all 1s; }
+  transition: all 1s;
+  height: 243px; }
 
 .twitter-square:hover {
   transform: scale(0.8); }

@@ -117,7 +117,8 @@ h1{
 	padding-top: 15px;
 	color: white;
 	transition: all 1s;
-	overflow: hidden;
+	height: 243px !important;
+	//overflow: hidden;
 }
 //pink box animation
 .pink-square:hover{
@@ -142,6 +143,7 @@ h1{
 	color: white;
 	font-size: 16px;
 	transition: all 1s;
+	height: 243px;
 }
 .twitter-square:hover{
 	 transform: scale(.8);
